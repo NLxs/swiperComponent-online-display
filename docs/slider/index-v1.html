@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/style1.css">
+  <title>轮播图组件</title>
+</head>
+<body>
+  <div class="slider">
+    <ul>
+      <li class="slider__item--selected">
+        <img src="./assets/images/1.jpg" alt="1">
+      </li>
+      <li class="slider__item">
+        <img src="./assets/images/2.jpg" alt="2">
+      </li>
+      <li class="slider__item">
+        <img src="./assets/images/3.jpg" alt="3">
+      </li>
+      <li class="slider__item">
+        <img src="./assets/images/4.jpg" alt="4">
+      </li>
+    </ul>
+    <!--切换图片-->
+    <a class="slider__next"></a>
+    <a class="slider__previous"></a>
+    <!--图片下方指示点-->
+    <div class="slider__control">
+      <span class="slider__control-buttons--selected"></span>
+      <span class="slider__control-buttons"></span>
+      <span class="slider__control-buttons"></span>
+      <span class="slider__control-buttons"></span>
+    </div>
+  </div>
+  <script type="module" src="./assets/app1.js"></script>
+</body>
+</html>
